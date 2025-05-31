@@ -4,7 +4,7 @@
 
   const result = ref(0);
   const text = ref('')
-  let mp = (s: string): number | undefined => 0;
+  let mp = (_: string): number | undefined => 0;
 
   init().then(()=>{
     const test_ans = math_parse("1 + 2");
