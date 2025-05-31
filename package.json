@@ -1,7 +1,7 @@
 {
   "name": "vue-wasm-app",
-  "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "bootstrap": "^5.3.6",
     "vite-plugin-wasm": "^3.4.1",
     "vue": "^3.5.13"
   },
